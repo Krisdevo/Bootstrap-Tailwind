@@ -12008,3 +12008,15 @@ textarea.form-control-lg {
 .oiseau-gros {
   height: 730px;
 }
+
+h1, .h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 20px 0;
+}
+
+form {
+  width: 50%;
+  margin: 100px 0;
+  height: 30rem;
+}
