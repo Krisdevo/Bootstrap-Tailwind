@@ -8,7 +8,7 @@
 
 
 .container-card{
-    margin: 100px 0;
+    margin: 150px 0;
     display: flex;
     justify-content: space-evenly;
 }
@@ -18,14 +18,52 @@
 }
 
 h1{
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 32px;
     text-transform: uppercase;
     text-align: center;
     margin: 20px 0;
 }
-
+h2{
+    font-weight: 600;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
 form{
 
-    width: 50%;
+    width: 45%;
+    height: 35rem;  
     margin: 100px 0;
-    height: 30rem;
+}
+
+.navbar{
+    background-color: #add8e6;
+}
+
+.img-form{
+    background: url(../ressources/dog-9578735_1280.jpg) no-repeat center/ cover ;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.cell{
+    padding: 15px;
+}
+
+ #pierre{
+  
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    height: 20rem;
+    width: 25%;
+    background-color: beige;
+    text-align: center;
+    align-content: center;
+
+}
+
+.invisible{
+   visibility: hidden;
 }

@@ -2,9 +2,7 @@
   "name": "bootstrap-tailwind",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "build" : "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
-  },
+
   "keywords": [],
   "author": "Christopher Devaux",
   "license": "ISC",
