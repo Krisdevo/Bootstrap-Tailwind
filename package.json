@@ -3,13 +3,19 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build" : "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
   },
   "keywords": [],
   "author": "Christopher Devaux",
   "license": "ISC",
   "description": "Using Bootstrap and styling with Tailwind for learning",
   "dependencies": {
+    "@tailwindcss/vite": "^4.1.6",
     "bootstrap": "^5.3.6"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17"
   }
 }
